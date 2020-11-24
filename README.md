@@ -16,6 +16,17 @@ How does it works?
           |↓|
           [↓]
    [Local Python Server] >>>>>>>>>>> [Writes Timestamps to .txt File]
+   
+##################################### HOW TO RUN ##############################################
+Follow below steps sequentially
+
+1. Run the python stalkerserver.py.
+2. Open web whatsapp and on brup proxy disable the Content-Security-Policy response header.
+3. Click on a chat of the target contact person.
+4. Open browser JS console and copy paste the stalkerclient.js, hit enter.
+5. File 'stalker.txt' will be created on online/offline activity by the target person.
+###############################################################################################
+
 
 Important Note: I assume no responsibilty for misuse :D
-What you do can be constructive or distructive and is not on ME!! XD
+What you do can be constructive or distructive and it is your choice and is not on ME!! XD
