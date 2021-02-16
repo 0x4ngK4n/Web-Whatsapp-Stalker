@@ -18,7 +18,7 @@ How does it works?
    [StalkerServer.py] >>>>>>>>>>> [Writes Timestamps to .txt File]
 
 ### HOW TO RUN
-Follow below steps sequentially
+#### Follow below steps sequentially
 
 1. Run the python stalkerserver.py.
 2. Open web whatsapp and on brup proxy disable the Content-Security-Policy response header.
