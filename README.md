@@ -1,5 +1,5 @@
 # Web-Whatsapp-Stalker
-An insidious script made to stalk people over WhatsApp based on their online and offline times.
+An script to track people over WhatsApp based on their online and offline times.
 
 Yes, IKR this is creepy but here goes the story.
 I was studying to check how can I track DOM changes in a page and stumbled across JavaScript MutationObserver API.
@@ -8,13 +8,13 @@ This div tag is removed whenever someone goes offline.
 
 How does it works?
 
-[WEB WHATSAPP OVER BROWSER {Injected JavaScript in Browser Console}] <<<============<<< PROXY(REMOVES CSP RESPONSE HEADER) <<<=============<<<[WHATSAPP SERVER]
-          |↓|
-          |↓|
-          |↓|
-          |↓|
-          |↓|
-          [↓]
+[WEB WHATSAPP{whatsapp-stalker.js}] <<<==<<< PROXY(REMOVES CSP HEADER) <<<==<<<[WHATSAPP SERVER]<br />
+          |↓|<br />
+          |↓|<br />
+          |↓|<br />
+          |↓|<br />
+          |↓|<br />
+          [↓]<br />
    [Local Python Server] >>>>>>>>>>> [Writes Timestamps to .txt File]
    
 ##################################### HOW TO RUN ##############################################
