@@ -1,4 +1,4 @@
-# Web-Whatsapp-Stalker
+# 👀 Web-Whatsapp-Stalker
 An script to track people over WhatsApp based on their online and offline times.
 
 Yes, IKR this is creepy but here goes the story.<br />
