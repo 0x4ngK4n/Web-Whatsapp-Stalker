@@ -3,7 +3,7 @@ var mutationObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
     if(mutation.addedNodes.length){
 		//person came online
-		if(mutation.addedNodes[0].className == '_2ruUq _3xjAz'){
+		if(mutation.addedNodes[0].className == '_2ruUq _3xjAz'){ //you need to inspect the 'online' element & change this value
 			console.log('came online')
 			const randomHttp = new XMLHttpRequest();
 			const randomurl='http://127.0.0.1:8003/online';
@@ -17,7 +17,7 @@ var mutationObserver = new MutationObserver(function(mutations) {
 	}
 	if(mutation.removedNodes.length){
 		//person gone offline
-		if(mutation.removedNodes[0].className == '_2ruUq _3xjAz'){
+		if(mutation.removedNodes[0].className == '_2ruUq _3xjAz'){ //again inspect the element & change the hardcoded value
 			console.log('went offline')
 			const randomHttp = new XMLHttpRequest();
 			const randomurl='http://127.0.0.1:8003/offline';
